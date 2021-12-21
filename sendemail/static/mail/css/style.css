@@ -1,0 +1,215 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 1280px;
+  margin: 0; padding: 0;
+  font-family: "Century Gothic", serif;
+}
+
+.messages{
+  margin-top: 70px;
+  font-size: 38px;
+
+}
+
+.form-control1{
+    width: 30px;
+    height: 36px;
+}
+
+form{
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  font-size: 45px;
+  line-height: normal;
+  margin: 0; padding: 0;
+}
+
+
+.texttop {
+  right: 45px;
+  position: absolute;
+  top: 135px;
+  color: white;
+  font-size: 37px;
+
+}
+
+.background {
+  width: 100%; height: 100%;
+}
+
+.bt{
+    background-color: rgb(30 156 215);
+    border-color: #1e9cd7;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 38%;
+}
+
+.top {
+  width: 100%; height: 130vh;
+  min-height: 720px;
+  position: relative;
+}
+
+.top-logo {
+  width: 640px; height: auto;
+  position: absolute;
+  top: 0; left: 0;
+}
+
+.reg-button {
+  width: 360px; height: auto;
+  position: absolute;
+  top: 380px; left: 260px;
+  cursor: pointer;
+  transition: 0.2s;
+} .reg-button:hover {
+  transform: scale(1.02);
+} .reg-button:active {
+  transform: scale(0.98);
+}
+
+
+
+.main {
+  width: 100%; height: 40vh;
+  min-height: 1280px;
+  position: relative;
+}
+
+.main-logo {
+  width: 500px; height: auto;
+  position: absolute;
+  top: -180px; right: 40px;
+
+}
+
+.main-content {
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-size: 26px;
+}
+
+
+.bottom {
+  width: 100%; height: 130vh;
+  min-height: 720px;
+  position: relative;
+}
+
+.contacts {
+  position: absolute;
+  right: 600px;
+  bottom: 50px;
+  font-size: 28px;
+  z-index: 1000;
+}
+
+.contacts-item {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.contacts-logo {
+  width: auto; height: 64px;
+  margin-right: 8px;
+}
+
+.contacts-text a {
+  text-decoration: none;
+}
+
+.agz-logo {
+  width: auto; height: 80vh;
+  min-height: 620px;
+  position: absolute;
+  bottom: 0; right: 0;
+}
+
+
+
+/* mail */
+
+
+
+
+
+
+ul.nav{
+              margin-left: 0px;
+              padding-left: 0px;
+              list-style: none;
+          }
+.nav li {
+              float: center;
+          }
+ul.nav a {
+              display: block;
+              width: 5em;
+              padding:10px;
+              margin: 0 5px;
+              background-color: #f4f4f4;
+              border: 1px dashed #333;
+              text-decoration: none;
+              color: #333;
+              text-align: center;
+          }
+ul.nav a:hover{
+              background-color: #333;
+              color: #f4f4f4;
+          }
+
+
+</style>
+
+
+
+
+
+<style>
+    .vhod{
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+      padding: .5rem 1rem;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      border-radius: .3rem;
+    }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .test {
+    display: none;
+  }
+
+
+  @media (min-width: 330px) {
+    .agz-logo {
+      width: auto; height: 40vh;
+      min-height: 620px;
+      position: absolute;
+      bottom: 0; right: 0;
+
+    }
+  }
